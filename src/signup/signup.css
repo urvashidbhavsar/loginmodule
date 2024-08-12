@@ -1,0 +1,73 @@
+.RegisterPage {
+    box-shadow: 0 0 20px rgb(193, 193, 193);
+    width: fit-content;
+    padding: 30px;
+    margin: 120px auto;
+    background-color: white;
+}
+
+.RegisterPage h1 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.RegisterPage .row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.RegisterPage .row .col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="password"],
+[type="text"] {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+@media (max-width:576px) {
+
+    input[type="password"],
+    [type="text"] {
+        width: 250px;
+    }
+}
+
+:focus-visible {
+    outline: none;
+}
+
+.btn {
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid crimson;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn:active {
+    scale: 0.95;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: crimson;
+}
+
+p {
+    text-align: center;
+}
+
+p a {
+    color: blue;
+}

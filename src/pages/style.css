@@ -1,0 +1,28 @@
+.homepage {
+    margin: 200px auto;
+    background-color: white;
+    padding: 50px;
+    width: fit-content;
+}
+
+.homedata {
+    text-align: center;
+}
+
+h1 {
+    padding-bottom: 30px;
+}
+
+h1 span {
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: crimson;
+    color: white;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    cursor: pointer;
+}
